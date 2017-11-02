@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => (
 
     <header>
-        <div className="jumbotron">
+        <div className="jumbotron text-center">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">

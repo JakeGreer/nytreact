@@ -35,13 +35,6 @@ class SearchPage extends Component {
         .catch(err => this.setState({ error: err.message }));
     };
 
-    // //method for handling form submit
-    // handleFormClear = event => {
-    //     event.preventDefault();
-    //     this.state.title = "";
-    //     this.state.startDate = "";
-    //     this.state.endDate ="";
-    // };
 
     render() {
         return (

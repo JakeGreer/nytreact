@@ -1,0 +1,11 @@
+.article:nth-child(odd) {
+    background-color: #eee;
+}
+
+.article {
+    padding: 15px;
+}
+
+.article-section {
+    margin-top: 20px;
+}

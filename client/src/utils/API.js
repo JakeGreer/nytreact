@@ -1,7 +1,5 @@
 import axios from 'axios'
 
-// Export an object containing methods we'll use for accessing the Dog.Ceo API
-
 export default {
   apiKey: '9ef5097969d74f3d822a1fc9f390b0f8',
   defaultSearchTerm: 'Government',

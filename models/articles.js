@@ -6,6 +6,7 @@ const articleSchema = new Schema({
   author: { type: String, required: true },
   link: String,
   dateCreated: String,
+  saved: Boolean,
   dateAdded: { type: Date, default: Date.now }
 });
 

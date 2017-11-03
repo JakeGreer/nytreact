@@ -17,6 +17,7 @@ const articleSeed = [
     author: "By REUTERS",
     link: "https://www.nytimes.com/reuters/2017/11/01/us/politics/01reuters-usa-tax-issues-factbox.html",
     dateCreated: "2017-11-01T23:48:40+0000",
+    saved: false, 
     dateAdded: new Date(Date.now())
   },
   {
@@ -24,6 +25,7 @@ const articleSeed = [
     author: "By THE EDITORIAL BOARD",
     link: "https://www.nytimes.com/2017/11/01/opinion/kelly-racist-history-slavery-compromise.html",
     dateCreated: "2017-11-01T23:33:44+0000",
+    saved: false,
     dateAdded: new Date(Date.now())
   },
   {
@@ -31,6 +33,7 @@ const articleSeed = [
     author: "By ABBY GOODNOUGH and JAN HOFFMAN",
     link: "https://www.nytimes.com/2017/11/01/health/opioids-trump-commission.html",
     dateCreated: "2017-11-01T23:31:39+0000",
+    saved: false,
     dateAdded: new Date(Date.now())
   },
   {
@@ -38,6 +41,7 @@ const articleSeed = [
     author: "By DAMIEN CAVE",
     link: "https://www.nytimes.com/2017/11/01/world/australia/refugees-manus-detention.html",
     dateCreated: "2017-11-01T23:27:50+0000",
+    saved: false,
     dateAdded: new Date(Date.now())
   },
   {
@@ -45,6 +49,7 @@ const articleSeed = [
     author: "By REUTERS",
     link: "https://www.nytimes.com/reuters/2017/11/01/world/middleeast/01reuters-new-york-attack-immigration-analysis.html",
     dateCreated: "2017-11-01T23:21:34+0000",
+    saved: false,
     dateAdded: new Date(Date.now())
   },
   {
@@ -52,6 +57,7 @@ const articleSeed = [
     author: "By MIRIAM JORDAN",
     link: "https://www.nytimes.com/2017/11/01/us/diversity-visa-lottery.html",
     dateCreated: "2017-11-01T23:02:15+0000",
+    saved: false,
     dateAdded: new Date(Date.now())
   },
   {
@@ -59,6 +65,7 @@ const articleSeed = [
     author: "By SCOTT SHANE",
     link: "https://www.nytimes.com/2017/11/01/us/politics/russia-2016-election-facebook.html",
     dateCreated: "2017-11-01T22:55:47+0000",
+    saved: false,
     dateAdded: new Date(Date.now())
   },
   

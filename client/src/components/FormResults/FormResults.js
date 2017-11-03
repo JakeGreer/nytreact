@@ -15,7 +15,8 @@ return <div className="container">
                     <br/>
                     <span className="date">Publish Date: {result.pub_date}</span>
                     <br/>
-                    <a className="article-link" href={result.web_url}>View article</a>
+                    <a className="article-link" href={result.web_url}>View article</a> || 
+                    <a className="save-link" href="/api/articles/saved">Save article</a>
                 </div>
             )}
         </div>

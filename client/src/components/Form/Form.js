@@ -21,7 +21,7 @@ const Form = props => (
               <label>End Year</label>
               <input id="end-date" type="date" name="endDate" className="form-control" placeholder="End Year" onChange={props.handleInputChange} value={props.endDate}></input>
             </div>
-              <button type="submit" className="btn search-btn btn-primary" onClick={props.handleFormSubmit}>Submit</button>
+              <button type="submit" className="btn search-btn btn-primary" onClick={props.handleFormSubmit} href="/articles">Submit</button>
               <button className="btn clear-btn btn-primary" onClick={props.handleFormClear}>Clear Search</button>
           </form>
         </div>

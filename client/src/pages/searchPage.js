@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import API from '../utils/API';
 import SearchForm from '../components/Form';
 import FormResults from '../components/FormResults';
+import axios from 'axios';
 // import Container from '../components/Container';
 
 class SearchPage extends Component {
@@ -9,9 +10,9 @@ class SearchPage extends Component {
         term: "",
         startDate: "",
         endDate: "",
-        articles: [],
         results: [],
-        error: ""
+        error: "",
+        comment: []
     }
 
     handleInputChange = event => {
@@ -29,11 +30,25 @@ class SearchPage extends Component {
             if (res.data.status === "error") {
             throw new Error(res.data.message);
             }
-            this.setState({ results: res.data.response.docs, error: "" });
-            
+            this.setState({ results: res.data.response.docs, error: "" });          
         })
         .catch(err => this.setState({ error: err.message }));
     };
+
+    handleArticleSave = event => {
+        event.preventDefault();
+        axios.post('/api/articles/saved', {
+            title: "Title",
+            pub_date: this.pub_date,
+            url: this.web_url
+          })
+          .then(function (response) {
+            console.log(response);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+    }
 
 
     render() {

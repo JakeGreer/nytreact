@@ -59,7 +59,10 @@ class SavedArticles extends Component {
                         <div className="card-block">
                             <h6 className="card-title">{article.title}</h6>
                             <p className="card-text">{article.snippet}</p>
-                            <button className="btn saved-article-button btn-danger btn-sm" id={index} onClick={this.handleRemoveArticle}>Delete Article</button>
+                            <div className="text-center center-block article-buttons">
+                            <a href={article.link}><button className="btn saved-article-view btn-info article-link">Go</button></a> 
+                            <button className="btn saved-article-button btn-danger" id={index} onClick={this.handleRemoveArticle}>X</button>
+                            </div>
                         </div>
                     </div>
                 </Col>

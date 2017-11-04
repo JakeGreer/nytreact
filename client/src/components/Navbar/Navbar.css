@@ -1,7 +1,7 @@
-.btn { 
-    margin-right: 5px;
+.collapse .nav-link {
+    color: #fff!important;
 }
 
-.nav-item {
-    display: inline;
+.btn {
+    margin-right: 5px;
 }

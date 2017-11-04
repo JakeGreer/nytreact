@@ -11,7 +11,26 @@
     text-overflow: ellipsis;
 }
 
+.card-title {
+    padding-top: 25px;
+    font-weight: bold;
+}
+
 .article-buttons {
     position: absolute;
     bottom: 5%;
+}
+
+.delete {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-weight: bold;
+    color: rgb(194, 30, 30)!important;
+    font-size: 20px;
+    padding: 3px;
+}
+
+a {
+    cursor: pointer;
 }

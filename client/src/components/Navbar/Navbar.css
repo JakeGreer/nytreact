@@ -2,6 +2,6 @@
     margin-right: 5px;
 }
 
-ul a {
-    display: inline-block;
+.nav-item {
+    display: inline;
 }

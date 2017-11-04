@@ -11,12 +11,14 @@ import { Container} from "./components/Grid";
 const App = () => 
 
 <Router>
+  <div>
+  <Navbar />
+  <Jumbotron />
   <Container>
-    <Navbar />
-    <Jumbotron />
     <Route exact path="/" component={SearchResults} />
     <Route exact path="/saved" component={Saved} />
   </Container>
+  </div>
 </Router>
 
 

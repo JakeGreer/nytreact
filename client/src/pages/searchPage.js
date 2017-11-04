@@ -36,11 +36,13 @@ class SearchPage extends Component {
     };
 
     handleArticleSave = event => {
+        console.log("Im here", this.state.results);
         event.preventDefault();
-        axios.post('/api/articles/saved', {
-            title: "Title",
-            pub_date: this.pub_date,
-            url: this.web_url
+        axios.post('/api/articles/saved/' + this.state.results._id, {
+            title: this.state.results[0].headline.main,
+            author: this.state.results[0].byline.original,
+            pub_date: this.state.results[0].pub_date,
+            link: this.state.results[0].web_url
           })
           .then(function (response) {
             console.log(response);
@@ -63,6 +65,7 @@ class SearchPage extends Component {
 
                 <FormResults 
                     results={this.state}
+                    handleArticleSave={this.handleArticleSave}
                 />
             </div>
         );

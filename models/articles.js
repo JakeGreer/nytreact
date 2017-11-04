@@ -5,8 +5,7 @@ const articleSchema = new Schema({
   title: { type: String, required: true },
   author: { type: String, required: true },
   link: String,
-  dateCreated: String,
-  saved: Boolean,
+  pub_date: String,
   dateAdded: { type: Date, default: Date.now }
 });
 

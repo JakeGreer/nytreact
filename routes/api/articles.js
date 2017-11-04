@@ -8,15 +8,9 @@ router
   .post(articleController.create);
 
 router
-  .route("/saved")
+  .route("/saved/:id")
   .get(articleController.findAll)
   .post(articleController.create);
-// Matches with "/api/articles/:id"
-// router
-//   .route("/:id")
-//   .get(articleController.findById)
-//   .put(articleController.update)
-//   .delete(articleController.remove);
 
 
 module.exports = router;

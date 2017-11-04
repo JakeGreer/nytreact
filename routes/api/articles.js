@@ -8,8 +8,14 @@ router
   .post(articleController.create);
 
 router
-  .route("api/articles/saved/:id")
+  .route("/saved/:id")
   .get(articleController.findById)
+  .post(articleController.create);
+
+router
+  .route("/saved")
+  .get(articleController.findAll)
+  .delete(articleController.remove)
   .post(articleController.create);
 
 router

@@ -11,8 +11,7 @@ class SearchPage extends Component {
         startDate: "",
         endDate: "",
         results: [],
-        error: "",
-        comment: []
+        error: ""
     }
 
     handleInputChange = event => {
@@ -36,21 +35,22 @@ class SearchPage extends Component {
     };
 
     handleArticleSave = event => {
-        console.log("Im here", this.state.results);
-        event.preventDefault();
-        axios.post('/api/articles/saved/' + this.state.results._id, {
-            title: this.state.results[0].headline.main,
-            author: this.state.results[0].byline.original,
-            pub_date: this.state.results[0].pub_date,
-            link: this.state.results[0].web_url
-          })
-          .then(function (response) {
-            console.log(response);
-          })
-          .catch(function (error) {
-            console.log(error);
-          });
-    }
+        console.log("EVENT TARGET", event.target);
+        console.log("This Result", this.state.results[event.target.id])
+        axios.post('/api/articles/saved/' + this.state.results[event.target.id]._id, {
+            title: this.state.results[event.target.id].headline.main,
+            author: this.state.results[event.target.id].byline.original,
+            link: this.state.results[event.target.id].web_url,
+            pub_date: this.state.results[event.target.id].pub_date,
+            givenId: this.state.results[event.target.id]._id
+        })
+        .then(function (response) {
+        console.log("Object response", response);
+        })
+        .catch(function (error) {
+        console.log(error);
+        })
+    };
 
 
     render() {

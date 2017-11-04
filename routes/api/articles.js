@@ -10,12 +10,12 @@ router
 router
   .route("/saved/:id")
   .get(articleController.findById)
+  .delete(articleController.remove)
   .post(articleController.create);
 
 router
   .route("/saved")
   .get(articleController.findAll)
-  .delete(articleController.remove)
   .post(articleController.create);
 
 router

@@ -16,6 +16,7 @@ const articleSeed = [
     title: "Factbox: Trump Tax Plan Stumbles on Local Tax Deduction, 401(k)",
     author: "By REUTERS",
     link: "https://www.nytimes.com/reuters/2017/11/01/us/politics/01reuters-usa-tax-issues-factbox.html",
+    snippet: "ifjla sf; ohsa dflias gsd ak jh fga sdkl jghda sjklhfjsha fjklhsdfj khasdf jkh sadjf khsd jkf hsdjh fdf",
     dateCreated: "2017-11-01T23:48:40+0000",
     givenId: 'fdsgdgdfsgfd3', 
     dateAdded: new Date(Date.now())
@@ -24,6 +25,7 @@ const articleSeed = [
     title: "About John Kelly’s Racist History Lesson",
     author: "By THE EDITORIAL BOARD",
     link: "https://www.nytimes.com/2017/11/01/opinion/kelly-racist-history-slavery-compromise.html",
+    snippet: "ifjla sf; ohsa dflias gsd ak jh fga sdkl jghda sjklhfjsha fjklhsdfj khasdf jkh sadjf khsd jkf hsdjh fdf",
     dateCreated: "2017-11-01T23:33:44+0000",
     givenId: 'fdsgdgdfsgfd4',
     dateAdded: new Date(Date.now())
@@ -32,6 +34,7 @@ const articleSeed = [
     title: "Panel Recommends Opioid Solutions but Puts No Price Tag on Them",
     author: "By ABBY GOODNOUGH and JAN HOFFMAN",
     link: "https://www.nytimes.com/2017/11/01/health/opioids-trump-commission.html",
+    snippet: "ifjla sf; ohsa dflias gsd ak jh fga sdkl jghda sjklhfjsha fjklhsdfj khasdf jkh sadjf khsd jkf hsdjh fdf",
     dateCreated: "2017-11-01T23:31:39+0000",
     givenId: 'fdsgdgdfsgfd5',
     dateAdded: new Date(Date.now())
@@ -40,6 +43,7 @@ const articleSeed = [
     title: "Refugees, Made Visible",
     author: "By DAMIEN CAVE",
     link: "https://www.nytimes.com/2017/11/01/world/australia/refugees-manus-detention.html",
+    snippet: "ifjla sf; ohsa dflias gsd ak jh fga sdkl jghda sjklhfjsha fjklhsdfj khasdf jkh sadjf khsd jkf hsdjh fdf",
     dateCreated: "2017-11-01T23:27:50+0000",
     givenId: 'fdsgdgdfsgfd6',
     dateAdded: new Date(Date.now())
@@ -48,6 +52,7 @@ const articleSeed = [
     title: "U.S. 'Diversity Visa' Program in Spotlight After New York Attack",
     author: "By REUTERS",
     link: "https://www.nytimes.com/reuters/2017/11/01/world/middleeast/01reuters-new-york-attack-immigration-analysis.html",
+    snippet: "ifjla sf; ohsa dflias gsd ak jh fga sdkl jghda sjklhfjsha fjklhsdfj khasdf jkh sadjf khsd jkf hsdjh fdf",
     dateCreated: "2017-11-01T23:21:34+0000",
     givenId: 'fdsgdgdfsgfd7',
     dateAdded: new Date(Date.now())
@@ -56,6 +61,7 @@ const articleSeed = [
     title: "Diversity Visa Lottery: Inside the Program That Admitted a Terror Suspect",
     author: "By MIRIAM JORDAN",
     link: "https://www.nytimes.com/2017/11/01/us/diversity-visa-lottery.html",
+    snippet: "ifjla sf; ohsa dflias gsd ak jh fga sdkl jghda sjklhfjsha fjklhsdfj khasdf jkh sadjf khsd jkf hsdjh fdf",
     dateCreated: "2017-11-01T23:02:15+0000",
     givenId: 'fdsgdgdfsgfd8',
     dateAdded: new Date(Date.now())
@@ -64,6 +70,7 @@ const articleSeed = [
     title: "These Are the Ads Russia Bought on Facebook in 2016",
     author: "By SCOTT SHANE",
     link: "https://www.nytimes.com/2017/11/01/us/politics/russia-2016-election-facebook.html",
+    snippet: "ifjla sf; ohsa dflias gsd ak jh fga sdkl jghda sjklhfjsha fjklhsdfj khasdf jkh sadjf khsd jkf hsdjh fdf",
     dateCreated: "2017-11-01T22:55:47+0000",
     givenId: 'fdsgdgdfsgfd9',
     dateAdded: new Date(Date.now())

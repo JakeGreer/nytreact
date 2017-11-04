@@ -1,0 +1,18 @@
+
+.card {
+    padding: 10px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.saved-article-button {
+    position: absolute;
+    bottom: 10%;
+    margin-left: 32%;
+}

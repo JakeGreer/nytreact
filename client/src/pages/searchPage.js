@@ -41,6 +41,7 @@ class SearchPage extends Component {
             title: this.state.results[event.target.id].headline.main,
             author: this.state.results[event.target.id].byline.original,
             link: this.state.results[event.target.id].web_url,
+            snippet: this.state.results[event.target.id].snippet,
             pub_date: this.state.results[event.target.id].pub_date,
             givenId: this.state.results[event.target.id]._id
         })

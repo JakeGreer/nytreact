@@ -36,7 +36,10 @@ class SearchPage extends Component {
 
     handleArticleSave = event => {
         console.log("EVENT TARGET", event.target);
-        console.log("This Result", this.state.results[event.target.id])
+        document.getElementById(event.target.id).innerHTML ="Saved";
+        document.getElementById(event.target.id).className = "btn btn-success";
+        document.getElementById(event.target.id).disabled = true;
+        console.log("This Result", this.state.results[event.target.id]);
         axios.post('/api/articles/saved/' + this.state.results[event.target.id]._id, {
             title: this.state.results[event.target.id].headline.main,
             author: this.state.results[event.target.id].byline.original,

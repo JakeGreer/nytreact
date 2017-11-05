@@ -17,7 +17,7 @@ return <div className="container">
                     <span className="date">Publish Date: {result.pub_date}</span>
                     <br/>
                     <a href={result.web_url} target="_blank"><button className="btn btn-info article-link">View article</button></a> 
-                    <button className="btn btn-success save-link" id={index} onClick={props.handleArticleSave}>Save article</button>
+                    <button className="btn btn-info save-link" id={index} onClick={props.handleArticleSave}>Save article</button>
                 </div>
             )}
         </div>

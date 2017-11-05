@@ -1,10 +1,13 @@
 .card {
     padding: 10px;
-    height: 200px;
+    height: 225px;
     margin-bottom: 30px;
     box-shadow: 3px 2px 2px rgb(68, 66, 66);
 }
 
+h1 {
+    color: #fff;
+}
 .card-text {
     white-space: nowrap;
     overflow: hidden;

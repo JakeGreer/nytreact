@@ -2,6 +2,10 @@
     background-color: #eee;
 }
 
+.article:nth-child(even) {
+    background-color: #fff;
+}
+
 .article {
     padding: 15px;
 }
